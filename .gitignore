@@ -1,5 +1,5 @@
 .venv
-django_project/__pycache__/
-__pycache__/
+django_project/__pycache__/*.pyc
+__pycache__/*.pyc
 blog/migrations
 db.sqlite3
