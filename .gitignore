@@ -1,3 +1,4 @@
-django_project/_pycache_/
-_pycache_/
+django_project/__pycache__/
+__pycache__/
 blog/migrations
+db.sqlite3
