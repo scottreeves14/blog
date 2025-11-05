@@ -6,3 +6,4 @@ blog/__pycache__/*
 accounts/__pycache__/*
 db.sqlite3
 .vscode/
+data/
