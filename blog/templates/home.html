@@ -3,7 +3,7 @@
 {% block content %}
 {% for post in post_list %}
 <div class="post-entry">
-    <!-- <h2><a hef="{% url 'post_detail' post.pk %}">{{ post.title }}</a></h2> -->
+	<!-- <h2><a hef="{% url 'post_detail' post.pk %}">{{ post.title }}</a></h2> -->
     <h2><a hef="{{ post.get_absolute_url }}">{{ post.title }}</a></h2>
     <p>Author: {{ post.author }}</a>
     <p>{{ post.body }}</p>
